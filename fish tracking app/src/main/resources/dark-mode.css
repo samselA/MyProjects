@@ -1,0 +1,13 @@
+.root {
+    -fx-background-color: #333333; /* Kolor tła dla całego okna */
+}
+
+.tab {
+    -fx-background-color: #FFFFFF; /* Kolor tła dla zakładki */
+    -fx-text-fill: #FFFFFF; /* Kolor tekstu na zakładce */
+}
+
+.button {
+    -fx-background-color: #1f1f1f; /* Kolor tła dla przycisku */
+    -fx-text-fill: #FFFFFF; /* Kolor tekstu na przycisku */
+}
