@@ -2,56 +2,11 @@
 
 Welcome to my personal project showcase. This repository includes a selection of data science, machine learning, and other projects that demonstrate my ability to solve real-world problems with Python, analytical thinking, and modern ML techniques.
 
-Each folder represents an independent project. Inside you'll find source code, documentation, and in many cases, notebooks or demos to help you explore the work.
+Each folder represents an independent project. Inside you'll find source code, documentation, and in many cases notebooks to help you explore the work.
 
 ---
 
 ## 📂 Projects Overview
-
-### 🏦 Bankruptcy Prediction
-**Objective:** Predict company bankruptcy using financial indicators from a real-world Kaggle dataset.  
-[Dataset Link](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
-
-- 🔍 **Data Exploration:** Identified key financial metrics influencing bankruptcy risk, such as profitability ratios, leverage, and liquidity indicators.
-- 🧱 **Feature Engineering:** Prepared data for modeling by handling missing values, normalizing input features, and generating derived indicators when necessary.
-- 🤖 **Modeling and Validation:** Applied classification algorithms (e.g., logistic regression, decision trees, ensemble models) to predict bankruptcy and evaluated their performance using metrics like AUC-ROC and precision-recall.
-
-➡️ [More in folder](./bankruptcy%20prediction)
-
----
-
-### 🐟 Fish and Ship Tracking Application
-**Objective:** Developed an application for real-time tracking of fish and ships globally, leveraging a user-friendly JavaFX interface.
-
-- 🌍 Integrated with the [Global Fishing Watch API](https://globalfishingwatch.org/our-apis/) to retrieve and display real-time locations and movement paths of registered vessels worldwide.
-- 🧭 Offered users an interactive and dynamic visualization of ship and fish tracking data.
-- ⚙️ Focused on seamless API integration and responsive UI using JavaFX to ensure smooth user experience.
-
-➡️ [More in folder](./fish%20tracking%20app)
-
----
-
-### 🍽️ Food Data Visualization
-**Objective:** Visualize and analyze the environmental impact of global food production using interactive and insightful graphics.
-
-- 🌱 Based on the [Environmental Impact of Food Production](https://www.kaggle.com/datasets/selfvivek/environment-impact-of-food-production/) dataset from Kaggle, covering metrics such as land use, greenhouse gas emissions, water usage, and eutrophication.
-- 📊 Built clear and engaging visualizations using Python libraries like `Matplotlib`, `Seaborn`, and `Plotly` to explore how different food products compare across sustainability dimensions.
-- 🎯 Highlighted key insights into the trade-offs between food categories (e.g., meat vs. plant-based) and their ecological footprints to support better awareness and decision-making.
-
-➡️ [More in folder](./food%20data%20visualization)
-
----
-
-### 🖼️ Image Processing Application
-**Objective:** Implement and demonstrate fundamental image processing techniques through an interactive desktop application.
-
-- ⚙️ Built using Python with `NumPy`, `OpenCV`, `Matplotlib`, and `PyQt5` to provide matrix-based image operations, filter applications, and histogram analysis via a graphical interface.
-- 🖌️ Supported pixel-level operations such as brightness and contrast adjustment, grayscale conversion, and negative image generation.
-- 🧠 Implemented convolution-based filters including blurring, sharpening, and edge detection.
-- 📊 Visualized histograms and image projections; included modules for geometric transformations such as rotation and mirror flipping.
-- 🖼️ GUI includes functional tabs for image selection, transformation, pixel operations, filters, and analytical visualizations.
-
----
 
 ### 🧠 Neural Networks Projects
 **Objective:** Explore and implement foundational neural network techniques and biologically inspired optimization algorithms, with a focus on interpretability, hands-on implementation, and experimentation. Each project contains detailed report discussing implementation choices, hyperparameter sensitivity, and experimental findings
@@ -87,6 +42,29 @@ This section includes three independent projects:
 
 ---
 
+### 🐟 Fish and Ship Tracking Application
+**Objective:** Developed an application for real-time tracking of fish and ships globally, leveraging a user-friendly JavaFX interface.
+
+- 🌍 Integrated with the [Global Fishing Watch API](https://globalfishingwatch.org/our-apis/) to retrieve and display real-time locations and movement paths of registered vessels worldwide.
+- 🧭 Offered users an interactive and dynamic visualization of ship and fish tracking data.
+- ⚙️ Focused on seamless API integration and responsive UI using JavaFX to ensure smooth user experience.
+
+➡️ [More in folder](./fish%20tracking%20app)
+
+---
+
+### 🏦 Bankruptcy Prediction
+**Objective:** Predict company bankruptcy using financial indicators from a real-world Kaggle dataset.  
+[Dataset Link](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction)
+
+- 🔍 **Data Exploration:** Identified key financial metrics influencing bankruptcy risk, such as profitability ratios, leverage, and liquidity indicators.
+- 🧱 **Feature Engineering:** Prepared data for modeling by handling missing values, normalizing input features, and generating derived indicators when necessary.
+- 🤖 **Modeling and Validation:** Applied classification algorithms (e.g., logistic regression, decision trees, ensemble models) to predict bankruptcy and evaluated their performance using metrics like AUC-ROC and precision-recall.
+
+➡️ [More in folder](./bankruptcy%20prediction)
+
+---
+
 ### 📰 News / Text Classification
 **Objective:** Perform document classification using natural language processing techniques to analyze, extract, and model textual content.
 
@@ -97,5 +75,27 @@ This section includes three independent projects:
 
 ➡️ [More in folder](./news%20classification)
 
+---
+
+### 🍽️ Food Data Visualization
+**Objective:** Visualize and analyze the environmental impact of global food production using interactive and insightful graphics.
+
+- 🌱 Based on the [Environmental Impact of Food Production](https://www.kaggle.com/datasets/selfvivek/environment-impact-of-food-production/) dataset from Kaggle, covering metrics such as land use, greenhouse gas emissions, water usage, and eutrophication.
+- 📊 Built clear and engaging visualizations using Python libraries like `Matplotlib`, `Seaborn`, and `Plotly` to explore how different food products compare across sustainability dimensions.
+- 🎯 Highlighted key insights into the trade-offs between food categories (e.g., meat vs. plant-based) and their ecological footprints to support better awareness and decision-making.
+
+➡️ [More in folder](./food%20data%20visualization)
 
 ---
+
+### 🖼️ Image Processing Application
+**Objective:** Implement and demonstrate fundamental image processing techniques through an interactive desktop application.
+
+- ⚙️ Built using Python with `NumPy`, `OpenCV`, `Matplotlib`, and `PyQt5` to provide matrix-based image operations, filter applications, and histogram analysis via a graphical interface.
+- 🖌️ Supported pixel-level operations such as brightness and contrast adjustment, grayscale conversion, and negative image generation.
+- 🧠 Implemented convolution-based filters including blurring, sharpening, and edge detection.
+- 📊 Visualized histograms and image projections; included modules for geometric transformations such as rotation and mirror flipping.
+- 🖼️ GUI includes functional tabs for image selection, transformation, pixel operations, filters, and analytical visualizations.
+
+---
+
