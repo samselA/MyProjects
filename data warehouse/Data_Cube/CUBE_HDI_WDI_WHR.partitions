@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9ba145e1-a909-4d1b-a01a-75e87b8bac88" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBE_HDI_WDI_WHR</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>f Economic</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e0c06f6b-d6a4-4cb6-a207-6f180068eefc">
+          <ID>f Economic</ID>
+          <Name>f Economic</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eb9a8790-6c7a-4c1b-a386-80121fc70fd9">
+            <DataSourceViewID>DSV_HDI_WDI_WHR</DataSourceViewID>
+            <TableID>dbo_f_economic</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>f Happiness</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b5fc12e4-1ebf-450b-8b04-864834f5df6b">
+          <ID>f Happiness</ID>
+          <Name>f Happiness</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="538e24b6-4310-4b2c-af98-54a1b912dd5f">
+            <DataSourceViewID>DSV_HDI_WDI_WHR</DataSourceViewID>
+            <TableID>dbo_f_happiness</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>f Hdi</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="59ada2f9-8517-4558-b0b0-7598034a0413">
+          <ID>f Hdi</ID>
+          <Name>f Hdi</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b6dd9aa8-13be-40ca-9b9e-d61bd38e2c65">
+            <DataSourceViewID>DSV_HDI_WDI_WHR</DataSourceViewID>
+            <TableID>dbo_f_hdi</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

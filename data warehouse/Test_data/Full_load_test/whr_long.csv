@@ -1,0 +1,16 @@
+year;rank;country name;metric;value
+2023.0;143.0;Afghanistan;Ladder score;1.721
+2022.0;137.0;Afghanistan;Ladder score;1.859
+2023.0;87.0;Albania;Ladder score;5.304
+2022.0;83.0;Albania;Ladder score;5.277
+2023.0;85.0;Algeria;Ladder score;5.364
+2022.0;81.0;Algeria;Ladder score;5.329
+2017.0;142.0;Angola;Ladder score;3.795
+2016.0;140.0;Angola;Ladder score;3.795
+2023.0;48.0;Argentina;Ladder score;6.188
+2022.0;52.0;Argentina;Ladder score;6.024
+year;143.0;Afghanistan;Ladder score;1.721
+2023.0;xxx;Afghanistan;Ladder score;1.721
+2023.0;143.0;Xghanistan;Ladder score;1.721
+2023.0;143.0;Afghanistan;xxx;1.721
+2023.0;143.0;Afghanistan;Ladder score;xxx

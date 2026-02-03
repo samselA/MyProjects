@@ -1,0 +1,24 @@
+country name;country code;metric;metric code;year;value
+Afghanistan;AFG;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;
+Afghanistan;AFG;Gini index;SI.POV.GINI;1990;
+Afghanistan;AFG;Unemployment, total (% of total labor force) (modeled ILO estimate);SL.UEM.TOTL.ZS;1990;
+Afghanistan;AFG;Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita);EN.GHG.CO2.PC.CE.AR5;1990;0.242593598026177
+Afghanistan;AFG;Renewable energy consumption (% of total final energy consumption);EG.FEC.RNEW.ZS;1990;23
+Afghanistan;AFG;Government expenditure on education, total (% of GDP);SE.XPD.TOTL.GD.ZS;1990;
+Afghanistan;AFG;Current health expenditure per capita (current US$);SH.XPD.CHEX.PC.CD;1990;
+Afghanistan;AFG;Individuals using the Internet (% of population);IT.NET.USER.ZS;1990;0
+Afghanistan;AFG;GNI, PPP (constant 2021 international $);NY.GNP.MKTP.PP.KD;1990;
+Albania;ALB;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;1606.29646776458
+Albania;ALB;Gini index;SI.POV.GINI;1990;
+Albania;ALB;Unemployment, total (% of total labor force) (modeled ILO estimate);SL.UEM.TOTL.ZS;1990;
+Albania;ALB;Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita);EN.GHG.CO2.PC.CE.AR5;1990;2.02188196590824
+Albania;ALB;Renewable energy consumption (% of total final energy consumption);EG.FEC.RNEW.ZS;1990;25.5
+Albania;ALB;Government expenditure on education, total (% of GDP);SE.XPD.TOTL.GD.ZS;1990;
+Albania;ALB;Current health expenditure per capita (current US$);SH.XPD.CHEX.PC.CD;1990;
+Albania;ALB;Individuals using the Internet (% of population);IT.NET.USER.ZS;1990;0
+Albania;ALB;GNI, PPP (constant 2021 international $);NY.GNP.MKTP.PP.KD;1990;
+Afghanistan;XXX;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;
+Afghanistan;;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;
+Afghanistan;AFG;GDP per capita (constant 2015 US$);XXX;1990;
+Afghanistan;AFG;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;30000;
+Afghanistan;AFG;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;year;

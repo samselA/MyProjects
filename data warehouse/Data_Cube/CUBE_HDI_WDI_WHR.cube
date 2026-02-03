@@ -1,0 +1,650 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c7836dbe-ea61-4d7d-9fec-6d12a13b7855" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CUBE_HDI_WDI_WHR</ID>
+  <Name>CUBE_HDI_WDI_WHR</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5936" scrolltop="-206" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26882" y="18944" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_country" left="5454" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000430e0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_country" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="f_happiness" left="10942" top="13082" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3598" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_f_happiness" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="f_economic" left="4467" top="5972" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="4075" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_f_economic" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="f_hdi" left="20" top="13372" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_f_hdi" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="dim_year" left="5420" top="13584" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3122" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000320c00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_dim_year" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1220" top="1387" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="4534" height="12285" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_f_hdi_dim_country]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="20" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5454" y="1786" />
+              <point x="1520" y="1786" />
+              <point x="1520" y="13372" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8805" top="1387" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="4236" height="11995" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_f_happiness_dim_country]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="21" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9105" y="1786" />
+              <point x="12741" y="1786" />
+              <point x="12741" y="13082" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6204" top="3073" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="1475" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_f_economic_dim_country]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7279" y="3572" />
+              <point x="7279" y="4772" />
+              <point x="6504" y="4772" />
+              <point x="6504" y="5972" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="8242" top="15182" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_f_happiness_dim_date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="2" sourceattachpoint="17" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8542" y="15581" />
+              <point x="9742" y="15581" />
+              <point x="9742" y="15582" />
+              <point x="10942" y="15582" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6204" top="10672" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="1177" height="3412" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_f_economic_dim_date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6981" y="13584" />
+              <point x="6981" y="12278" />
+              <point x="6504" y="12278" />
+              <point x="6504" y="10972" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="15182" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_f_hdi_dim_date]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="16" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5420" y="15581" />
+              <point x="3020" y="15581" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5936</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-206</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="c0394607-9abe-4810-abf6-15281722644c">
+      <ID>Dim Country</ID>
+      <Name>Dim Country</Name>
+      <DimensionID>Dim Country</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e5895191-f0fe-4667-9f18-07924a8218e9">
+          <AttributeID>Country Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5338d2ef-5b83-4184-8479-4019a4575740">
+          <AttributeID>Region Name</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e8ecf30d-9ed7-4a8b-8658-097afe90709f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="85a6b059-6956-4a0a-b72f-56ad5fe05482">
+      <ID>Dim Year</ID>
+      <Name>Dim Year</Name>
+      <DimensionID>Dim Year</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f20634af-b299-4649-9041-137d95b42d08">
+          <AttributeID>Year Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="cf024795-343d-4609-a893-69a9c990d138">
+      <ID>f Economic</ID>
+      <Name>f Economic</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="8bffca22-c587-4668-ae9f-789042eddae2">
+          <ID>Gdp Per Capita</ID>
+          <Name>Gdp Per Capita</Name>
+          <Source dwd:design-time-name="05a2589b-4146-402c-b1bf-a9d2f4504962">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="76b63da8-ca2e-445a-9ad9-7481cf0501d8">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>gdp_per_capita</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="02b37bec-2103-42e6-bd7b-b5a859d85427">
+          <ID>Gini Index</ID>
+          <Name>Gini Index</Name>
+          <Source dwd:design-time-name="b1c3ac97-fd64-4afe-b10b-e593533416f9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f1c5beba-d0df-4cd0-a273-b55c12cb2669">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>gini_index</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4e3ff91e-d265-4f52-8c50-9c12dfaccf4e">
+          <ID>Unemployment Rate</ID>
+          <Name>Unemployment Rate</Name>
+          <Source dwd:design-time-name="41c19efa-4b37-4ccd-947f-dde429b5668d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="96dd8640-1f7d-49fd-b24a-192b2b073735">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>unemployment_rate</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7c786519-c9bd-45cf-86c6-1d326dc4d023">
+          <ID>Co2 Emissions Pc</ID>
+          <Name>Co2 Emissions Pc</Name>
+          <Source dwd:design-time-name="73c010ea-8e15-4780-b57b-12fef64dfbbc">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4bbf9e3f-b5f0-4d69-9356-79f1a7ad9eeb">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>co2_emissions_pc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="14c24e05-68df-4089-9d4d-dd5345abb806">
+          <ID>Renewable Energy Pct</ID>
+          <Name>Renewable Energy Pct</Name>
+          <Source dwd:design-time-name="df702b62-032e-4c59-8cb8-99e40279af25">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b93c61fc-3209-44e6-a8e1-3c1d2359c664">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>renewable_energy_pct</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8842ae31-f30e-4f55-adfe-a19c5d456115">
+          <ID>Govt Expenditure Pct</ID>
+          <Name>Govt Expenditure Pct</Name>
+          <Source dwd:design-time-name="0bcd1962-478e-4b3e-bac2-22728951acd9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="870dfbe5-29dc-4dc6-9246-0881bdf8b1e0">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>govt_expenditure_pct</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a49d2454-9160-458c-895a-91bff0941a98">
+          <ID>Health Exp Per Capita</ID>
+          <Name>Health Exp Per Capita</Name>
+          <Source dwd:design-time-name="d3360e8c-a3e9-4ed1-94ae-512a2b08d04a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a082eb73-54b2-4fcc-bcf2-2626a20bd614">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>health_exp_per_capita</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="aa28cdb4-effd-4226-84a7-2e05ca35b06a">
+          <ID>Internet Users Pc</ID>
+          <Name>Internet Users Pc</Name>
+          <Source dwd:design-time-name="c0e85611-99d8-4d4a-ad32-5bf8d23d4d2c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6fbe50ba-b3dd-486b-86d6-e8491934348e">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>internet_users_pc</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dc9079eb-80c1-4f5a-880e-4e3302c89d49">
+          <ID>Gni Ppp</ID>
+          <Name>Gni Ppp</Name>
+          <Source dwd:design-time-name="a855d06c-00dd-4af3-ba5c-2d7011cb913d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="814a7ac1-d9a3-484b-9223-0c97399ee7ea">
+              <TableID>dbo_f_economic</TableID>
+              <ColumnID>gni_ppp</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="57d486db-160d-49c0-87af-c2b37b7f9ac1">
+          <CubeDimensionID>Dim Country</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="5f6fe120-2b23-48f6-bec7-7026b52cb1ac">
+              <AttributeID>Country Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5263436a-8cc2-4458-92a4-23676d4195c6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="72585ef9-569b-4698-9434-1ccfb688480c">
+                    <TableID>dbo_f_economic</TableID>
+                    <ColumnID>country_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8e351a8e-ac19-416c-a815-63cfb5e9e8f4">
+          <CubeDimensionID>Dim Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d387e90-8a7a-4bc7-9c6a-4483635f41f7">
+              <AttributeID>Year Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="90400bc0-abd0-417a-9f87-20040b5fd61f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cdbf1175-073a-4899-bdc6-b20ffa3d45f6">
+                    <TableID>dbo_f_economic</TableID>
+                    <ColumnID>date_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="632228c5-3021-421d-b750-56d8ddb57067">
+      <ID>f Happiness</ID>
+      <Name>f Happiness</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f4336cc4-2605-47f0-9cc1-3311454f04b6">
+          <ID>Ladder Score</ID>
+          <Name>Ladder Score</Name>
+          <Source dwd:design-time-name="5cc91b7c-fc54-4b7e-a1c9-0c54a7a6ba4b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f44e3510-8169-443d-93f3-390c2485a151">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>ladder_score</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1b166e3a-16c5-4128-9ee6-fb68cae95a66">
+          <ID>Gdp Log</ID>
+          <Name>Gdp Log</Name>
+          <Source dwd:design-time-name="5baac23f-5847-4fba-a375-b3253f4060d4">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d369269e-ced1-4f42-b93d-a7adf90d9893">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>gdp_log</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="98bad2d9-9566-4bd6-b38b-c88bf5418303">
+          <ID>Social Support</ID>
+          <Name>Social Support</Name>
+          <Source dwd:design-time-name="d07fc34a-18d1-4441-97f8-89c97ee19f0f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="06c5ff63-aebd-4d65-8247-78e7e2b1873b">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>social_support</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="214c3adc-a1fa-4b63-bbcf-72d7d9b3eb13">
+          <ID>Health Expectancy</ID>
+          <Name>Health Expectancy</Name>
+          <Source dwd:design-time-name="3e45a5bb-a791-456e-a969-1f4f00efdb19">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4245dae4-d684-480d-82ef-5d8f6086bccd">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>health_expectancy</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1e41861f-c7d5-4048-b23c-fe5fe4af0912">
+          <ID>Freedom</ID>
+          <Name>Freedom</Name>
+          <Source dwd:design-time-name="b014b447-0a0f-4291-9d09-a89b6c4730d3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a066a38e-a7bb-42cd-b118-7f943dce3438">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>freedom</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="79e31760-ba22-48c0-9d2d-7c7ebe4dd0bd">
+          <ID>Generosity</ID>
+          <Name>Generosity</Name>
+          <Source dwd:design-time-name="554f1e84-443b-4705-8e93-b1fc7e0e5b05">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a86ca59b-eeb6-4d2a-aa30-9b9afef2b1ba">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>generosity</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d1a309d3-34fc-4446-8d3e-92a4278ceda1">
+          <ID>Corruption</ID>
+          <Name>Corruption</Name>
+          <Source dwd:design-time-name="f6166475-81c7-4686-8819-377886739908">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6a0c7e4b-6250-4bab-929a-7c4d6b19e8f8">
+              <TableID>dbo_f_happiness</TableID>
+              <ColumnID>corruption</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="63abe0e0-f2dd-479e-9a3a-3802bdf53f84">
+          <CubeDimensionID>Dim Country</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d90b8f5e-0646-4ccf-91b9-3e150065a90b">
+              <AttributeID>Country Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="413485d7-f42f-462a-8048-95a70f52c951">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="acc3d278-3852-4da0-b61e-db04b963696b">
+                    <TableID>dbo_f_happiness</TableID>
+                    <ColumnID>country_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cfc0bfe4-6488-459f-8ac5-8cf1507f2401">
+          <CubeDimensionID>Dim Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e3a40393-9d37-411f-8f6b-01a55a8b1c70">
+              <AttributeID>Year Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="609479b7-532a-46ef-b6bc-d70ef4998912">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a46a55b4-1b57-4f5b-b945-eecf56583970">
+                    <TableID>dbo_f_happiness</TableID>
+                    <ColumnID>date_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ef11b514-71d5-4e49-a125-3c7710d7646a">
+      <ID>f Hdi</ID>
+      <Name>f Hdi</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="688628cd-46ac-4983-9da0-71d14d759849">
+          <ID>Hdi</ID>
+          <Name>Hdi</Name>
+          <Source dwd:design-time-name="7244d8cd-c469-451e-a734-09816bf4da24">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="81079a60-4d81-4a67-b469-abae7169f4c7">
+              <TableID>dbo_f_hdi</TableID>
+              <ColumnID>hdi</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="7c24a2eb-e391-4ed8-b1df-6ce481878a5f">
+          <ID>Life Exp Idx</ID>
+          <Name>Life Exp Idx</Name>
+          <Source dwd:design-time-name="12f74894-bb11-488e-8d0c-7edc00f319ba">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4040d348-7d28-4f21-af1b-ff1fd96b4aec">
+              <TableID>dbo_f_hdi</TableID>
+              <ColumnID>life_exp_idx</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f8c50f59-6ff6-409b-b097-bd86d7625e3d">
+          <ID>Edu Idx</ID>
+          <Name>Edu Idx</Name>
+          <Source dwd:design-time-name="5d691218-4c05-4816-a42b-6e01ee675f11">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f3310b36-cc31-45ee-83ce-a2deee0a6dd8">
+              <TableID>dbo_f_hdi</TableID>
+              <ColumnID>edu_idx</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="09326b8f-7d5d-415c-ba1a-7ddd273d0109">
+          <ID>Gni Idx</ID>
+          <Name>Gni Idx</Name>
+          <Source dwd:design-time-name="aca2df1e-b392-474d-9bec-8459118abd9b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ee594c82-157c-40fb-accf-7191f45aca2b">
+              <TableID>dbo_f_hdi</TableID>
+              <ColumnID>gni_idx</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e5078520-9698-48cf-82eb-7b34befd38d4">
+          <ID>Population</ID>
+          <Name>Population</Name>
+          <Source dwd:design-time-name="8f20eb08-8238-4549-846a-a8cc48b8080a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="30635c30-d70c-4cac-8651-7cf8cc3ddde9">
+              <TableID>dbo_f_hdi</TableID>
+              <ColumnID>population</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7b8989f1-7273-46ea-9980-29030028c457">
+          <CubeDimensionID>Dim Country</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d935c048-1f47-4cf9-b0fa-502e5f07a939">
+              <AttributeID>Country Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8f96685d-897d-4744-9891-ccc687ba020e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6542e2a6-f44f-490b-b648-131c0acfa908">
+                    <TableID>dbo_f_hdi</TableID>
+                    <ColumnID>country_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7a4dc744-ee61-41e0-b0bb-13a278711732">
+          <CubeDimensionID>Dim Year</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ca32bb84-02c3-42b8-8ae4-811289ad6678">
+              <AttributeID>Year Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b8e93ce7-0743-4052-aa0d-e684b7acbe7b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="19e9b8a7-69e5-421e-8906-eb3b63573648">
+                    <TableID>dbo_f_hdi</TableID>
+                    <ColumnID>date_key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="52795300-7bdf-49f1-8ca3-b509d14fe971">
+    <DataSourceViewID>DSV_HDI_WDI_WHR</DataSourceViewID>
+  </Source>
+</Cube>

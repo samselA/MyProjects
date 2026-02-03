@@ -1,0 +1,10 @@
+country name;country code;metric;metric code;year;value
+Afghanistan;AFG;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;
+Afghanistan;AFG;Gini index;SI.POV.GINI;1990;
+Albania;ALB;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;1606.29646776458
+Albania;ALB;Gini index;SI.POV.GINI;1990;
+American Samoa;ASM;Renewable energy consumption (% of total final energy consumption);EG.FEC.RNEW.ZS;1990;0
+American Samoa;ASM;Government expenditure on education, total (% of GDP);SE.XPD.TOTL.GD.ZS;1990;
+Angola;AGO;GDP per capita (constant 2015 US$);NY.GDP.PCAP.KD;1990;2380.17624300565
+Angola;AGO;Gini index;SI.POV.GINI;1990;
+Afghanistan;AFG;Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita);EN.GHG.CO2.PC.CE.AR5;1990;0.5

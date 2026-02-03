@@ -1,0 +1,10 @@
+year;rank;country name;metric;value
+2023.0;143.0;Afghanistan;Ladder score;9.999
+2022.0;137.0;Afghanistan;Ladder score;1.859
+2023.0;87.0;Albania;Ladder score;5.304
+2022.0;83.0;Albania;Ladder score;5.277
+2012.0;143.0;Afghanistan;Ladder score;4.04
+2011.0;131.0;Afghanistan;Ladder score;4.258
+2012.0;62.0;Albania;Ladder score;5.55
+2011.0;88.0;Albania;Ladder score;5.134
+2023.0;143.0;Afghanistan;Explained by: Log GDP per capita;0.628
