@@ -17,6 +17,8 @@ Each folder represents an independent project. Inside you'll find source code, d
 * 📈 Developed **interactive Power BI dashboards** with DAX measures to analyze correlations between economic indicators, inequality, CO₂ emissions, digitalization, and happiness.
 * 🎯 Enabled exploratory and hypothesis-driven analysis for use cases such as ESG benchmarking, policy analysis, and cross-country comparisons.
 
+➡️ [More in folder](./data%20warehouse)
+
 ---
 
 ### 🧠 Neural Networks Projects
