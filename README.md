@@ -8,12 +8,21 @@ Each folder represents an independent project. Inside you'll find source code, d
 
 ## 📂 Projects Overview
 
+### 🌍 Socio-Economic Data Warehouse & BI Analytics
+
+**Objective:** Build a unified analytics platform to explore relationships between socio-economic development, sustainability, and subjective well-being across countries and time.
+
+* 🗂️ Integrated public datasets from UNDP (HDI), World Bank (WDI), and the World Happiness Report into a single **data warehouse** with a star-schema model at country–year granularity.
+* 🔄 Implemented end-to-end **ETL pipelines** using Python and SSIS, including data validation, transformations, pivoting, and incremental SQL-based loading.
+* 📈 Developed **interactive Power BI dashboards** with DAX measures to analyze correlations between economic indicators, inequality, CO₂ emissions, digitalization, and happiness.
+* 🎯 Enabled exploratory and hypothesis-driven analysis for use cases such as ESG benchmarking, policy analysis, and cross-country comparisons.
+
+---
+
 ### 🧠 Neural Networks Projects
 **Objective:** Explore and implement foundational neural network techniques and biologically inspired optimization algorithms, with a focus on interpretability, hands-on implementation, and experimentation. Each project contains detailed report discussing implementation choices, hyperparameter sensitivity, and experimental findings
 
 This section includes three independent projects:
-
----
 
 #### 🔬 Multilayer Perceptron (MLP) – From Scratch
 - 👷 Built a fully connected feedforward neural network from the ground up using only `NumPy`, without high-level ML libraries.
@@ -22,16 +31,12 @@ This section includes three independent projects:
 
 ➡️ [More in folder](./neural%20networks/multilayer%20perceptron)
 
----
-
 #### 🗺️ Self-Organizing Map (SOM / Kohonen Network)
 - 📉 Implemented a 2D self-organizing map for unsupervised learning and data projection.
 - 🧪 Applied to image datasets like MNIST and notMNIST to explore topological preservation and clustering behavior without label supervision.
 - 🧭 Analyzed the ability of the network to distinguish and map high-dimensional input vectors onto a low-dimensional grid structure.
 
 ➡️ [More in folder](./neural%20networks/self-organizing%20map)
-
----
 
 #### 🧬 Genetic Algorithm for Cutting Stock Problem
 - 🔁 Implemented a genetic algorithm to solve multi-variable optimization problems, focusing on the **cutting stock problem** — maximizing material usage by fitting predefined shapes into containers (e.g., rectangles into a circle).
